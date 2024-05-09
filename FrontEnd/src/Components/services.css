@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+::-webkit-scrollbar{
+    width: 2px;
+}
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+::-webkit-slider-thumb{
+    background: #888;
+}
+::-webkit-slider-thumb:hover{
+    background: #555;
+}
+.container{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #222327;
+    font-family: "poppins",sans-serif;
+    min-height: 100vh;
+    text-align: center;
+
+}
+.card{
+    width: 305px;
+    margin: 25px;
+    padding: 40px 30px;
+    background-color: #222327;
+    position: relative;
+    transition: all 0.25s ease-in-out;
+}
+.card .card_icon{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.card .card_icon img{
+    height: 75px;
+}
+.card h6{
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.card ul li{
+    list-style: none;
+    padding: 3px 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+.card.selected{
+    background-color: #161619;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
+}
+.book{
+    position: absolute;
+    top: 20px;
+    left: 36rem;
+    color: wheat;
+}
+.update{
+    width: 5rem;
+    height: 2rem;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.delete{
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: red;
+}
+h1{
+    color: white;
+}

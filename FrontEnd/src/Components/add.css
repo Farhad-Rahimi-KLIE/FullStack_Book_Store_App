@@ -1,0 +1,44 @@
+#pa{
+    position: absolute;
+    top: 2rem;
+    left: 40rem; 
+}
+
+#roi{
+     position: absolute;
+    top: 5rem;
+    left: 40rem;
+    height: 40px;
+    border-style: solid;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+}
+
+#time{
+    position: absolute;
+    top: 9rem;
+    left: 40rem;
+    height: 40px;
+    border-style: solid;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+}
+
+#cal{
+    color: white;
+    position: absolute;
+    left: 40rem;
+    top: 14rem;
+    height: 30;
+    width: 90;
+    cursor: pointer;
+    border-style: solid;
+    border-color: black;
+    border-radius: 40;
+    border-width: 3;
+    border-radius: 25px;
+    background: #73AD21;
+}
+

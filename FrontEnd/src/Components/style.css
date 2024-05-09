@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+.site-header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    background-image: url("../assets/Developer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: white;
+}
+.logo{
+    width: 50%;
+    height: 100px;
+}
+.logo h1{
+    line-height: 100px;
+    padding-left: 30px;
+}
+.logo span{
+    color: red;
+}
+.menu{
+    width: 50%;
+    height: 100px;
+}
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    color: red;
+    transition: color 2s;
+}
+.wwe li a{
+    color: white;
+    cursor: pointer;
+}
+.leftside{
+    width: 55%;
+    height: 300px;
+    color: white;
+    text-align: left;
+    margin-left: 30px;
+    padding: 40px;
+    position: absolute;
+    top: 25%;
+}
+.leftside h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.leftside a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    width: 10rem;
+}
+.leftside a:hover{
+    color: crimson;
+    background: none;
+}
+/* .About{
+    width: 100%;
+    height: 100vh;
+}
+.About h1{
+    position: absolute;
+    left: 40%;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.About h3{
+    position: absolute;
+    left: 41%;
+    top: 690px;
+} */
+.leftbar{
+ background-color: black;
+}
+.leftbar img{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 200px;
+    top: 740px;
+}
+.rightbar{
+    background-color: aqua;
+}
+.rightbar h1{
+    position: absolute;
+    top: 790px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.rightbar span{
+    color: red;
+}
+.rightbar p{
+    position: absolute;
+    top: 840px;
+    left: 540px;
+    width: 50%;
+    height: 25%;
+}
+.About .rightbar a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    list-style: none;
+    list-style-type: none;
+    position: absolute;
+    top: 1000px;
+    left: 600px;
+}
+.About .rightbar a:hover{
+    color: crimson;
+    background: none;
+}
+.Services{
+    background-color: black;
+    width: 100vw;
+    height: 90vh;
+}
+.Services h1{
+    position: absolute;
+    top: 1380px;
+    left: 550px;
+    font-family: sans-serif;
+    color: white;
+
+}
+.Services h2{
+    position: absolute;
+    top: 1430px;
+    left: 540px;
+    font-family: sans-serif;
+    color: red;
+}
+.Services .container{
+    width: 25vw;
+    border: 2px solid ;
+    height: 30vh;
+    background-color: rgba(210, 190, 190, 0.088);
+    border-radius: 20px;
+    position: absolute;
+    top: 1500px;
+    left: 80px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.Services .container:hover{
+    background-color: red;
+    transition: all 0.3s ease;
+    border: 2px solid white;
+}
+.Services .container h1{
+    width: 40vw;
+    color: blue;
+    position: absolute;
+    top: 20px;
+    left: 85px;
+    color: white;
+}
+.Services .container p{
+    position: absolute;
+    top: 80px;
+    font-size: 20px;
+    color: white;
+}
+.Services .container1{
+    width: 25vw;
+    border: 2px solid ;
+    height: 30vh;
+    background-color: rgba(210, 190, 190, 0.088);
+    /* border: 2px solid crimson; */
+    border-radius: 20px;
+    position: absolute;
+    top: 1500px;
+    left: 500px;
+    overflow: hidden;
+}
+.Services .container1:hover{
+    background-color: red;
+    transition: all 0.3s ease;
+    border: 2px solid white;
+}
+.Services .container1 h1{
+    width: 40vw;
+    color: blue;
+    position: absolute;
+    top: 20px;
+    left: 85px;
+    color: white;
+    overflow: hidden;
+}
+.Services .container1 p{
+    position: absolute;
+    top: 80px;
+    font-size: 20px;
+    color: white;
+    overflow: hidden;
+}
+.Services .container2{
+    width: 25vw;
+    border: 2px solid ;
+    height: 30vh;
+    background-color: rgba(210, 190, 190, 0.088);
+    /* border: 2px solid crimson; */
+    border-radius: 20px;
+    position: absolute;
+    top: 1500px;
+    left: 910px;
+    overflow: hidden;
+}
+.Services .container2:hover{
+    background-color: red;
+    transition: all 0.3s ease;
+    border: 2px solid white;
+}
+.Services .container2 h1{
+    width: 40vw;
+    color: blue;
+    position: absolute;
+    top: 20px;
+    left: 85px;
+    color: white;
+    overflow: hidden;
+}
+.Services .container2 p{
+    position: absolute;
+    top: 80px;
+    font-size: 20px;
+    color: white;
+    overflow: hidden;
+}
+.Skills{
+    background-image: url("../assets/Developer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.Skills h1{
+    position: absolute;
+    top: 1970px;
+    left: 600px;
+    font-family: sans-serif;
+}
+.Skills h3{
+    position: absolute;
+    top: 2010px;
+    left: 600px;
+    color: red;
+    font-family: sans-serif;
+}
+.Skills .left h2{
+    position: absolute;
+    left: 70px;
+    top: 2100px;
+}
+.Skills .left p{
+    width: 520px;
+    height: 100px;
+    position: absolute;
+    top: 2140px;
+    left: 70px;
+}
+.Skills .left a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    list-style: none;
+    list-style-type: none;
+    position: absolute;
+    top: 2250px;
+    left: 65px
+}
+.Skills .left a:hover{
+    color: crimson;
+    background: none;
+}
+.right{
+    position: absolute;
+    left: 640px;
+    top: 2120px;
+}
+.right .bars{
+    margin-bottom: 15px;
+}
+.right .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right .info .per{
+    display: flex;
+    color: red;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 600px;
+}
+.right .info span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.line{
+    height: 5px;
+    width: 42vw;
+    background: lightgray;
+    position: relative;
+}
+.line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.html::before{
+    width: 90%;
+}
+.css::before{
+    width: 65%;
+}
+.js::before{
+    width: 95%;
+}
+.php::before{
+    width: 65%;
+}
+.mysql::before{
+    width: 70%;
+}
+
+.contact h1{
+    position: absolute;
+    top: 2620px;
+    left: 570px;
+    font-family: sans-serif;
+}
+.contact h3{
+    position: absolute;
+    top: 2670px;
+    left: 590px;
+    color: red;
+    font-family: sans-serif;
+}
+.jan h2{
+    position: absolute;
+    top: 2730px;
+    left: 80px;
+    font-family: sans-serif;
+}
+.jan p{
+    width: 430px;
+    height: 100px;
+    position: absolute;
+    top: 2780px;
+    left: 80px;
+}
+.jan .nm{
+    position: absolute;
+    top: 2870px;
+    left: 80px;
+    font-family: sans-serif;
+}
+.jan .pa{
+    position: absolute;
+    top: 2910px;
+    font-family: sans-serif;
+}
+.jan .ad{
+    position: absolute;
+    top: 2940px;
+    left: 80px;
+    font-family: sans-serif;
+}
+.jan .and{
+    position: absolute;
+    top: 2980px;
+    font-family: sans-serif;
+}
+.jan .em{
+    position: absolute;
+    top: 3010px;
+    left: 80px;
+    font-family: sans-serif;
+}
+.jan .eml{
+    position: absolute;
+    top: 3050px;
+    font-family: sans-serif;
+}
+.message h1{
+    position: absolute;
+    top: 2760px;
+    left: 630px;
+}
+.message .name{
+    position: absolute;
+    top: 2810px;
+    left: 630px;
+    width: 300px;
+    height: 47px;
+    color: #fff;
+    border: 2px solid crimson;
+    border-radius: 7px;
+    padding-left: 90px;
+    background: crimson;
+    transition: all 0.3s ease;
+}
+.message .name:hover{
+    color: crimson;
+    background: none;
+}
+.message .email{
+    position: absolute;
+    top: 2810px;
+    left: 960px;
+    width: 300px;
+    height: 47px;
+    border: 2px solid crimson;
+    border-radius: 7px;
+    padding-left: 90px;
+    background: crimson;
+    transition: all 0.3s ease;
+}
+.message .email:hover{
+    color: crimson;
+    background: none;
+}
+.message .sub{
+    position: absolute;
+    top: 2880px;
+    left: 630px;
+    width: 630px;
+    height: 55px;
+    border: 2px solid crimson;
+    border-radius: 7px;
+    padding-left: 20px;
+    background: crimson;
+    transition: all 0.3s ease;
+}
+.message .sub:hover{
+    color: crimson;
+    background: none;
+}
+.message .mes{
+    position: absolute;
+    top: 2960px;
+    left: 630px;
+    width: 630px;
+    height: 80px;
+    border: 2px solid crimson;
+    border-radius: 7px;
+    padding-left: 20px;
+    padding-bottom: 35px;
+    background: crimson;
+    transition: all 0.3s ease;
+}
+.message .mes:hover{
+    color: crimson;
+    background: none;
+}
+.message a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    list-style: none;
+    list-style-type: none;
+    position: absolute;
+    top: 3040px;
+    left: 630px
+}
+.message a:hover{
+    color: crimson;
+    background: none;
+}
+.footer{
+    width: 100%;
+    height: 8%;
+    position: absolute;
+    top: 3180px;
+    background: crimson;
+    transition: all 0.3s ease;
+}
+.footer:hover{
+    color: crimson;
+    background: none;
+}
+.footer h3{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+.footer .spa{
+    color: rgb(173, 149, 14);
+}
